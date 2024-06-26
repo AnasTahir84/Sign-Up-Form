@@ -49,7 +49,8 @@ body{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: rgb(255, 255, 255);
 }
 h1{
     text-align: center;
@@ -74,6 +75,10 @@ h1{
 }
 
   .user input::placeholder {
+    color:rgb(255, 255, 255);
+    font-size: larger;
+  }
+  .pass input::placeholder {
     color:rgb(255, 255, 255);
     font-size: larger;
   }
