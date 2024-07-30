@@ -50,7 +50,8 @@ body{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: rgb(255, 255, 255);
 }
 h1{
     text-align: center;
