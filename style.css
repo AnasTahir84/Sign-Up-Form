@@ -1,7 +1,8 @@
 .box{
     height: 400px;
     width: 400px;
-   background: transparent;
+   background: linear-gradient(rgba(255, 255, 255, 0),rgb(255,255,255,0.1));
+   backdrop-filter: blur(5px);
     align-items: center;
     justify-content: center;
     border-radius: 30px;
@@ -74,6 +75,10 @@ h1{
 }
 
   .user input::placeholder {
+    color:rgb(255, 255, 255);
+    font-size: larger;
+  }
+  .pass input::placeholder {
     color:rgb(255, 255, 255);
     font-size: larger;
   }
